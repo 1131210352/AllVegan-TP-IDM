@@ -15,19 +15,12 @@ img{
     max-width: 100%;
 }
 
-.logo{
-    width: 250px ;
-    height: 48px ;
-    font-size: 0 ;
-    background-image: url(../images/logo.png) ;
+.styleP{
+    font-size: 0.8em;
 }
 
-.navbar-light .navbar-toggler-icon{
-    background-image: url(../images/menu.png);
-}
-
-.navbar-light .navbar-toggler{
-    border: none;
+.styleT{
+    font-size:1.8em !important;
 }
 
 li{
@@ -46,9 +39,13 @@ h2{
     font-size: 2.1rem;
 }
 
-h3, .centrar{
-    text-align: center;
+h3{
     font-size: 1.5rem;
+}
+
+.centrar{
+    text-align: center;
+    
 }
 
 #recetaSalada{
@@ -76,3 +73,59 @@ h3, .centrar{
 #carouselExampleControls {
     text-align: -moz-center;
 }
+
+.d-Al{
+    display: none;
+}
+
+.d-mobile   {
+    display:none;
+}
+
+.styleT3{
+    font-size: 1rem !important;
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+    #recetaSalada{
+        background: url(../images/recetas_salada_t.png) no-repeat top right;
+    }
+    
+    #recetaDulce{
+        background: url(../images/recetas_dulces_t.png) no-repeat top right;
+    }
+
+    .styleP{
+        font-size: 1em;
+    }
+    
+    .styleT{
+        font-size:2.5em !important;
+    }
+    
+}    
+@media screen and (min-width: 801px) {
+
+    .d-pc{
+        display: flex;
+    }
+
+    #recetaSalada{
+        background: url(../images/recetas_salada_p.png) no-repeat top right;
+        
+    }
+    
+    #recetaDulce{
+        background: url(../images/recetas_dulces_P.png) no-repeat top right;
+       
+    }
+
+    .styleP{
+        font-size: 1.8em;
+    }
+    
+    .styleT{
+        font-size:3.3em !important;
+    }
+    
+} 

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family = Passion + One & display = swap');
+
+/* COLORES*/
+.green{
+    color: #00681b;
+}
+
+.orange{
+    color: #ff987d;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    width: 250px ;
+    height: 48px ;
+    font-size: 0 ;
+    background-image: url(../images/logo.png) ;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../images/menu.png);
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+li{
+    list-style: none;
+}
+
+h2, h3{
+    font-family: 'Passion One', cursiva;;
+     font-weight: 700;
+     font-style: bold;
+     color: #00681b;
+     text-transform: uppercase;
+}
+
+h2{
+    font-size: 2.1rem;
+}
+
+h3, .centrar{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#recetaSalada{
+    height: 6.5em;
+    margin: 1em -5%;
+    padding: 2em 0.6em;
+    text-align: left;
+    background: url(../images/recetas_salada.png) no-repeat top right;
+
+}
+
+#recetaDulce{
+    height: 6.5em;
+    margin: 1em -5%;
+    padding: 2em 0.6em;
+    text-align: left;
+    background: url(../images/recetas_dulces.png) no-repeat top right;
+
+}
+
+.carousel-inner{
+    width: 80%;
+}
+
+#carouselExampleControls {
+    text-align: -moz-center;
+}

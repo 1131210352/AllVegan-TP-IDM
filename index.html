@@ -10,17 +10,50 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/pth1jlj.css">
     
-    <title>Gabriel Leszczuk, DWN2B</title>
+    <title>Gabriel Leszczuk, DWN2B 2021</title>
 </head>
 <body>
 
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 class="logo">AllVegan</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#SV">Ser Vegano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#RZ">Razones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#AL">Alimentación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#RS">Recetas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#C">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
     <div id="main" >
         <div class="container">
-            <div row>
-                <div class="col-6 position-absolute   ">
+            <div class="row">
+                <div class="col-7 position-absolute ps-3   ">
             <h2 class="styleT">vida vegana</h2>
            <p class=" styleP"> Si hay forma de vivir en la cual respetemos la vida animal, <br>cuidemos nuestra salud planeta <strong>¿Por qué no elegirla?</strong></p>
-                   <a href="#A" >leer más</a>
+                   <a href="#A" class="btn btn-success" >leer más</a>
         </div></div></div>
         <div class="container-fluid container-lg">
                    <picture class="ms-lg-5">
@@ -69,10 +102,10 @@
                 </div>
         </section>
         <section class="container">
-            <h2 >3 razones por las cuales ser vegano</h2>
+            <h2 id="RZ" >3 razones por las cuales ser vegano</h2>
 
                 <p>Si hay forma de vivir en la cual respetemos la vida animal, cuidemos nuestra salud y el planeta, <strong>¿Por qué no elegirlas?</strong> </p> 
-                <div id="carouselExampleControls" class="carousel slide w-90 d-md-none" data-bs-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide w-90 d-md-none " data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="images/por-el-planeta.png" class="d-block w-80" alt="...">
@@ -160,17 +193,17 @@
 
                 </div>
          </section>
-         <section >
+    
 
          <section class="container ">
-            <h2 id="A">Alimentación vegana</h2>
+            <h2 id="AL">Alimentación vegana</h2>
             <p>El consumo elevado de productos de animales es una de las principales causas de las enfermedades 
             cardiovasculares. Una alimentación vegetal reduce el riesgo de sufrir intoxicaciones alimentarias 
             producidas por la salmonella, otras bacterias, y la exposición de toxinas medioambientales. 
             Una dieta sin productos de origen animal, es extremadamente versátil. 
             Los productos de origen animal se pueden sustituir fácilmente: 
             </p>
-            <div id="carouselExampleControls2" class="d-md-none carousel slide w-90" data-bs-ride="carousel">
+            <div id="carouselExampleControls2" class="d-md-none carousel slide w-90 " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="images/frutas-y-verduras.jpg" class="d-block w-80" alt="...">
@@ -244,89 +277,64 @@
             </section>
         
             <section id="RS" class="container">
-                <h2 id="recetaSalada">recetas <br> saladas</h2>
-                <ul >
-                    <div class="row justify-content-sm-between">
-                        <div class=" col-10 col-sm-4">
-                            <li>
-                                <div class="card centrar m-auto mb-3">
+                <h2 id="recetaSalada" class="ps-5">recetas <br> saladas</h2>
+                <ul class="row justify-content-sm-between">
+                    
+                       
+                            <li class="col-10 col-sm-4 card centrar m-auto mb-3">
                                     <img src="images/receta-tarta-de-vegetales.jpg" alt="Receta tarta de vegetales" class="card-img-top">
                                     <div class="card-body">
                                       <h3 class="card-title styleT3 ">Tarta de vegetales, jamón ahumado y queso</h3>
                                       <a href="#" class="btn btn-success">ver receta</a>
                                     </div>
-                                  </div>
                             </li>
-                        </div>
-                        <div class=" col-10 col-sm-4 mb-3">
-                            <li>
-                                <div class="card centrar m-auto" >
+                            <li class=" card centrar m-autO col-10 col-sm-4 mb-3">
                                     <img src="images/receta-medallon-de-brocoli.jpg" alt="Receta medallón de brocoli" class="card-img-top">
                                     <div class="card-body">
                                       <h3 class="card-title styleT3">Medallón de brócoli al horno,con verduras</h3>
                                       <a href="#" class="btn btn-success">ver receta</a>
                                     </div>
-                                  </div>
-                            </li>
-                        </div>
-                        <div class=" col-10 mb-5 col-sm-4">
-                            <li>
-                                <div class="card centrar m-auto" >
+                             </li>
+                            <li class=" col-10 mb-5 col-sm-4 card centrar m-auto">
                                     <img src="images/receta-medallon-de-choclo.jpg" alt="Receta medallón de choclo" class="card-img-top">
                                     <div class="card-body">
                                       <h3 class="card-title styleT3">Medallón de choclo, con arroz y verduras </h3>
                                       <a href="#" class="btn btn-success">ver receta</a>
                                     </div>
-                                  </div>
                             </li>
-                        </div>
-                    </div>
                 </ul>
             </section>
             <section id="RD" class="container ">
-                <h2 id="recetaDulce">recetas <br> saladas</h2>
-                <ul>
-                    <div class="row justify-content-md-between  ">
-                        <div class="col-10 col-sm-4 ">
-                            <li>
-                                <div class="card centrar mb-3 m-auto" >
+                <h2 id="recetaDulce" class="ps-5" >recetas <br> dulces</h2>
+                <ul class="row justify-content-md-between  ">
+                            <li class="col-10 col-sm-4 card centrar mb-3 m-auto">
+                             
                                     <img src="images/receta-postre-chocolate.jpg" alt="Receta vasito de chocolate y avellanas" class="card-img-top">
                                     <div class="card-body">
                                       <h3 class="card-title styleT3">Vasito de chocolate y avellanas </h3>
                                       <a href="#" class="btn btn-success">ver receta</a>
                                     </div>
-                                  </div>
                             </li>
-                        </div>
-                        <div class=" col-10 col-sm-4">
-                            <li>
-                                <div class="card centrar mb-3 m-auto" >
+                            <li class=" col-10 col-sm-4 card centrar mb-3 m-auto">
                                     <img src="images/muffins-chocolate.jpg" alt="Receta pastelitos de chocolate y frambuesa" class="card-img-top">
                                     <div class="card-body">
                                       <h3 class="card-title styleT3">Pastelitos de chocolate y frambuesa </h3>
                                       <a href="#" class="btn btn-success">ver receta</a>
                                     </div>
-                                  </div>
                             </li>
-                        </div>
-                            <div class=" col-10  mb-5 col-sm-4">
-                                <li>
-                                    <div class="card centrar m-auto" >
+                                <li class=" col-10  mb-3 col-sm-4 card centrar m-auto">
                                         <img src="images/receta-cookies-chocolate.jpg" alt="Receta galletitas veganas" class="card-img-top">
                                         <div class="card-body">
                                           <h3 class="card-title styleT3">Galletitas veganas con chispas de chocolate </h3>
                                           <a href="#" class="btn btn-success">ver receta</a>
                                         </div>
-                                      </div>
-                                </li>
-                            </div>
-                    </div>
-                </ul>
+                                </li> 
+                    </ul>
             </section>
             
     </main>
 
-        <h2>Nuestro canal de Youtube</h2>
+        <h2 class="ps-5">Nuestro canal de Youtube</h2>
         <figure class="ratio ratio-21x9">
             <iframe  src="https://www.youtube.com/embed/QuJQfG61LNw" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
@@ -334,30 +342,122 @@
         <section class="container" id="secRedes">
             <h2>Páginas que acompañan la causa</h2>
             <div class="row justify-content-sm-between">
-                <div class=" col-sm-4 col-lg-3">
-                    <figure id="red1" class="figure">
+                <div id="red1" class=" s col-sm-4 col-lg-3">
+                    <figure  class="figure redesSociales">
                         <img  src="images/instagram-.png" alt="" class="figure-img">
-                            <figcaption class="figure-caption">@Bestofvegan</figcaption>
+                            <figcaption class="figure-caption bg-white"><a href="https://www.instagram.com/?hl=es">@Bestofvegan</a></figcaption>
                     </figure>
                 </div>
-                <div class=" col-sm-4 col-lg-3">
-                    <figure id="red2"  class="figure">
+                <div id="red2" class="  col-sm-4 col-lg-3">
+                    <figure   class="figure  redesSociales">
                         <img src="images/instagram-1.png" alt="" class="figure-img">
-                            <figcaption class="figure-caption">@Lagloriavegana</figcaption>
+                            <figcaption class="figure-caption bg-white"><a href="https://www.instagram.com/?hl=es"></a>@Lagloriavegana</figcaption>
                     </figure>
                 </div>
-                <div class=" col-sm-4 col-lg-3">
-                    <figure id="red3" class="figure"> 
+                <div id="red3" class="  col-sm-4 col-lg-3">
+                    <figure  class="figure redesSociales"> 
                         <img src="images/instagram-3.png" alt="" class="figure-img">
-                            <figcaption class="figure-caption">@Midietavegana</figcaption>
+                            <figcaption class="figure-caption bg-white"> <a href="https://www.instagram.com/?hl=es">@Midietavegana</a> </figcaption>
                      </figure>
                 </div>
                 
-                
-
+                <ul id="redes" >
+                    <li><a href="#red1">red1</a></li>
+                    <li><a href="#red2">re2</a></li>
+                    <li><a href="#red3">red2</a></li>
+                </ul>
+            </div>
         </section>
+        <aside id="contacto" class="container mb-3" >
+            <div class="card orangeBk mb-5 p-4">
+            <p >
+                Suscribite a nuestro newsletter y recibi todas 
+                nuestras noticias semanalmente
+            </p>
+            <form action="enviado.html" method="post" enctype="multipart/form-data">
+                <label> 
+                    <span>Nombre:</span>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+                </label> 
+                <label> 
+                    <span>Apellido:</span>
+                    <input type="text" name="apellido" placeholder="Ingrese su apellido" required />
+                </label> 
+                <label> 
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="Ingrese su email" required />
+                </label> 
+                <label> 
+                    <span>Intereses</span>
+                    <input list="interes" name="list" placeholder="Recetas/Noticias/Infomación"/>
+                        <datalist id="interes">
+                            <option label="Recetas" value="Recetas">
+                            <option label="Noticias" value="Noticias">
+                            <option label="Informacion" value="Informacion">
+                            
+                        </datalist>
+                </label> 
+                <textarea name="comentario" id="comentario" cols="30" rows="6" placeholder="Ingrese su comentario..." ></textarea>
 
+                <button type="submit" class="btn btn-success">Suscribir</button>
+                
+            </form>
+            </div>
+        </aside>
 
+    <footer class="page-footer font-small orangeBk">
+        <div class="container">
+            <div >
+                <p id="logof" > logo</p>
+            </div>
+        <div class="row text-center d-flex justify-content-center  mb-3 ">
+            <div class="col-md-2 mb-3">
+            <h3 class="text-uppercase h6">
+                <a href="#SV">Ser Vegano</a>
+            </h3>
+            </div>
+            <div class="col-md-2 mb-3">
+            <h3 class="text-uppercase  h6">
+                <a href="#RZ">Razones</a>
+            </h3>
+            </div>
+            <div class="col-md-2 mb-3">
+            <h3 class="text-uppercase  h6 text-dark">
+                <a href="#AL">Alimentación</a>
+            </h3>
+            </div>
+            <div class="col-md-2 mb-3">
+            <h3 class="text-uppercase  h6">
+                <a href="#RS">Recetas</a>
+            </h3>
+            </div>
+            <div class="col-md-2 mb-3">
+            <h3 class="text-uppercase h6">
+                <a href="#C">Contacto</a>
+            </h3>
+            </div>
+        </div>
+        <hr class="rgba-white-light" style="margin: 0 ;">
+        <div class="row ">
+            <div class="col-md-12">
+    
+            <div class=" flex-center">
+                <ul id="footerRedes">
+                    <li id="fb"><a href="https://www.facebook.com/" target=”_blank” >fb</a></li>
+                    <li id="yt"><a href="https://www.youtube.com/" target=”_blank” >yt</a></li>
+                    <li id="insta"><a href="https://www.instagram.com/" target=”_blank” >insta</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="footer-copyright text-center py-3">© 2020 Copyright | Gabriel Leszczuk - Interacción con Dispositivos Móviles - DWN2B - MMXXI
+        </div>
+      
+    
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>

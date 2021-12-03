@@ -5,11 +5,35 @@
     color: #00681b;
 }
 
+.greenBk{
+    background-color: #00681b;
+}
+
 .orange{
     color: #ff987d;
 }
 
+.orangeBk{
+    background-color: #ff987d;
+}
 
+
+.logo{
+    font-size: 0;
+    width: 250px;
+    height: 48px;
+    background-image:  url(../images/logo.png);
+    
+}
+
+#logof{
+    font-size: 0;
+    background-image: url(../images/logo_f.png);
+    width: 100px;
+    height: 100px;
+    margin-left: 38%;
+
+}
 
 img{
     max-width: 100%;
@@ -86,6 +110,87 @@ h3{
     font-size: 1rem !important;
 }
 
+#red2, #red3{
+    display: none;
+}
+
+#red2:target,
+#red3:target,
+#red1:target{
+    display: block;
+}
+
+#redes li a {
+    width: 30px;
+    height: 30px; 
+    display: inline-block;
+    font-size: 0;
+    background: url(../images/des.png) no-repeat;
+}
+#redes li a:hover{
+    background: url(../images/des_hover.png) no-repeat;
+}
+
+#redes li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 32em;
+    margin-left: 18%;  
+}
+
+.redesSociales{
+    position: absolute;
+    width: 75%;
+    height: 50%;
+    margin-left: 11%;
+    border-radius: 0.5em;
+    background-color: white;
+    left: 0;
+}
+
+#footerRedes {
+    text-align: center;
+    display: block ruby;
+}
+#footerRedes li a{
+    width: 50px;
+    height: 50px;
+}
+
+#fb{
+    background: url(../images/facebook-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+#yt{
+    background: url(../images/youtube-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#insta{
+    background: url(../images/instagram-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#enviado {
+    display: none;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #9f100c;
+}
+
+#enviado:target {
+    display: block;
+}
+
 @media screen and (min-width: 481px) and (max-width: 800px){
     #recetaSalada{
         background: url(../images/recetas_salada_t.png) no-repeat top right;
@@ -127,5 +232,24 @@ h3{
     .styleT{
         font-size:3.3em !important;
     }
+ 
+    #red2, #red3{
+        display: block;
+    }
+
+    .redesSociales{
+        position: initial;
+        border: none;
+        margin-right: 3%;
+    }
+
+    #redes li{
+        display: none;
+    }
+
+    #logof{
+        margin-left: 45%;
     
+    }
+
 } 
